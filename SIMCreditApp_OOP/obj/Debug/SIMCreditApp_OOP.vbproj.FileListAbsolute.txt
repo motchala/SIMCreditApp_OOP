@@ -1,0 +1,13 @@
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\bin\Debug\SIMCreditApp_OOP.exe.config
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\bin\Debug\SIMCreditApp_OOP.exe
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\bin\Debug\SIMCreditApp_OOP.pdb
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\bin\Debug\SIMCreditApp_OOP.xml
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.vbproj.AssemblyReference.cache
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.Form1.resources
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.LoadForm.resources
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.Resources.resources
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.vbproj.GenerateResource.cache
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.vbproj.CoreCompileInputs.cache
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.exe
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.xml
+C:\Users\jinky\OneDrive\Desktop\SIMCreditApp_OOP\obj\Debug\SIMCreditApp_OOP.pdb
