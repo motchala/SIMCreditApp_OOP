@@ -1,0 +1,13 @@
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.vbproj.AssemblyReference.cache
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.Resources.resources
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.vbproj.GenerateResource.cache
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.vbproj.CoreCompileInputs.cache
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\bin\Debug\SimCreditApp_OOP.exe.config
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\bin\Debug\SimCreditApp_OOP.exe
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\bin\Debug\SimCreditApp_OOP.pdb
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\bin\Debug\SimCreditApp_OOP.xml
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.exe
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.xml
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.pdb
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.signIn_Form.resources
+C:\Users\lastr\source\repos\SimCreditApp_OOP\SimCreditApp_OOP\obj\Debug\SimCreditApp_OOP.promos.resources
