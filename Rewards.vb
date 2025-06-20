@@ -8,13 +8,13 @@
 
 
     Private Sub btn_Back(sender As Object, e As EventArgs) Handles Button1.Click
-        MainMenu.Show()
         Me.Close()
+        MainMenu.Show()
     End Sub
 
 
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+    Private Sub Label3_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -42,6 +42,7 @@
             MessageBox.Show("Transaction cancelled.", "Cancelled", MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
+
     Private Sub btnReward_3(sender As Object, e As EventArgs) Handles Button4.Click
         result = MsgBox("Proceed with the transaction?", MsgBoxStyle.YesNo Or MsgBoxStyle.Question, "Confirm Transaction")
         If result = MsgBoxResult.Yes Then
@@ -78,7 +79,7 @@
         End If
     End Sub
 
-    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Label12.Click
+    Private Sub Label12_Click(sender As Object, e As EventArgs)
         result = MsgBox("Proceed with the transaction?", MsgBoxStyle.YesNo Or MsgBoxStyle.Question, "Confirm Transaction")
         If result = MsgBoxResult.Yes Then
             TransactionDetails.Show()
@@ -93,4 +94,16 @@
         Application.Exit()
     End Sub
 
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        Signup.Show()
+        Me.Hide()
+    End Sub
 End Class
