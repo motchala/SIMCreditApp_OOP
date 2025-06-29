@@ -76,5 +76,8 @@
         Me.Hide()
     End Sub
 
-
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        ' Exit Button
+        Application.Exit()
+    End Sub
 End Class

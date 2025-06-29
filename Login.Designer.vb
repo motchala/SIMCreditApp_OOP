@@ -33,6 +33,8 @@ Partial Class Login
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -95,13 +97,14 @@ Partial Class Login
         Me.LinkLabel1.LinkArea = New System.Windows.Forms.LinkArea(0, 36)
         Me.LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.LinkLabel1.LinkColor = System.Drawing.Color.White
-        Me.LinkLabel1.Location = New System.Drawing.Point(78, 705)
+        Me.LinkLabel1.Location = New System.Drawing.Point(258, 682)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(269, 21)
+        Me.LinkLabel1.Size = New System.Drawing.Size(70, 21)
         Me.LinkLabel1.TabIndex = 5
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "Doesn't have an account yet? Sign Up"
+        Me.LinkLabel1.Text = "Sign Up"
         Me.LinkLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.LinkLabel1.UseCompatibleTextRendering = True
         Me.LinkLabel1.VisitedLinkColor = System.Drawing.Color.Black
         '
         'PictureBox1
@@ -128,7 +131,37 @@ Partial Class Login
         Me.Label3.Text = "SIM CREDIT SYSTEM"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
-        'signIn_Form
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(118, 681)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(179, 18)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Doesn't have an account?"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.LinkLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel2.Font = New System.Drawing.Font("Arial", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.LinkLabel2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.LinkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
+        Me.LinkLabel2.LinkColor = System.Drawing.Color.Gray
+        Me.LinkLabel2.Location = New System.Drawing.Point(379, 0)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(49, 35)
+        Me.LinkLabel2.TabIndex = 10
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "✖"
+        Me.LinkLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.LinkLabel2.VisitedLinkColor = System.Drawing.Color.Black
+        '
+        'Login
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.MediumSlateBlue
@@ -136,6 +169,8 @@ Partial Class Login
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(428, 812)
         Me.ControlBox = False
+        Me.Controls.Add(Me.LinkLabel2)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.PictureBox1)
@@ -146,9 +181,10 @@ Partial Class Login
         Me.Controls.Add(Me.TextBox1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "signIn_Form"
+        Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Sign In"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -166,4 +202,6 @@ Partial Class Login
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents LinkLabel2 As LinkLabel
 End Class
