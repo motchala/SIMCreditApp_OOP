@@ -9,7 +9,9 @@
         Label8.Text = Login.currentName
         Label9.Text = Login.currentPhoneNumber
         Label10.Text = Login.currentLoadBal
+        Label11.Text = Login.currentActivePromo
         Label12.Text = Login.currentRewardBal
+
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         'Load
