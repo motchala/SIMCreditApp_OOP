@@ -36,6 +36,7 @@ Partial Class Promo
         Me.Button2 = New System.Windows.Forms.Button()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -43,7 +44,6 @@ Partial Class Promo
         Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel5 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel6 = New System.Windows.Forms.LinkLabel()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -221,6 +221,19 @@ Partial Class Promo
         Me.Panel3.Size = New System.Drawing.Size(404, 216)
         Me.Panel3.TabIndex = 27
         '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Indigo
+        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Location = New System.Drawing.Point(267, 47)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(123, 143)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FAWK 59" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3GB" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3 days validity"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button5.UseVisualStyleBackColor = False
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -310,19 +323,6 @@ Partial Class Promo
         Me.LinkLabel6.Text = "🏠︎" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Menu"
         Me.LinkLabel6.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.LinkLabel6.VisitedLinkColor = System.Drawing.Color.Blue
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.Indigo
-        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(267, 47)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(123, 143)
-        Me.Button5.TabIndex = 6
-        Me.Button5.Text = "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "FAWK 59" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3GB" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "3 days validity"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.UseVisualStyleBackColor = False
         '
         'Promo
         '
