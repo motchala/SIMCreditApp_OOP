@@ -91,6 +91,7 @@ Public Class Promo_PromoOffer
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 10
+                Login.currentActivePromo = "Fawk 10"
 
                 Login.currentRewardBal += 0.1
                 MainMenu.RefreshData()
@@ -115,6 +116,7 @@ Public Class Promo_PromoOffer
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 20
+                Login.currentActivePromo = "Fawk 20"
 
                 Login.currentRewardBal += 0.2
                 MainMenu.RefreshData()
@@ -138,6 +140,7 @@ Public Class Promo_PromoOffer
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 55
+                Login.currentActivePromo = "Fawk 59"
 
                 Login.currentRewardBal += 0.3
                 MainMenu.RefreshData()
@@ -161,6 +164,7 @@ Public Class Promo_PromoOffer
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 90
+                Login.currentActivePromo = "Fawk 99"
 
                 Login.currentRewardBal += 0.4
                 MainMenu.RefreshData()
@@ -184,6 +188,7 @@ Public Class Promo_PromoOffer
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 135
+                Login.currentActivePromo = "Fawk 149"
 
                 Login.currentRewardBal += 0.5
                 MainMenu.RefreshData()
@@ -207,6 +212,7 @@ Public Class Promo_PromoOffer
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 225
+                Login.currentActivePromo = "Fawk 249"
 
                 Login.currentRewardBal += 0.6
                 MainMenu.RefreshData()
