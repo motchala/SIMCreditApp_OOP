@@ -23,6 +23,8 @@
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 10
+
                 Login.currentRewardBal += 0.1
             End If
         End If
@@ -40,6 +42,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 20
 
                 Login.currentRewardBal += 0.2
             End If
@@ -59,6 +63,8 @@
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 50
+
                 Login.currentRewardBal += 0.3
             End If
         End If
@@ -76,6 +82,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 99
 
                 Login.currentRewardBal += 0.4
             End If
@@ -95,6 +103,8 @@
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 120
+
                 Login.currentRewardBal += 0.5
             End If
         End If
@@ -112,6 +122,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 150
 
                 Login.currentRewardBal += 0.6
             End If
