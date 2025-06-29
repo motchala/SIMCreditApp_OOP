@@ -60,7 +60,7 @@ Partial Class Loadf
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Arial Rounded MT Bold", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.White
-        Me.Label19.Location = New System.Drawing.Point(72, 58)
+        Me.Label19.Location = New System.Drawing.Point(99, 86)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(235, 54)
         Me.Label19.TabIndex = 20
@@ -70,7 +70,7 @@ Partial Class Loadf
         '
         Me.Label21.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.White
-        Me.Label21.Location = New System.Drawing.Point(-4, 23)
+        Me.Label21.Location = New System.Drawing.Point(-4, 38)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(462, 29)
         Me.Label21.TabIndex = 23
@@ -80,15 +80,15 @@ Partial Class Loadf
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(11, 139)
+        Me.Label1.Location = New System.Drawing.Point(108, 523)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(222, 20)
+        Me.Label1.Size = New System.Drawing.Size(226, 20)
         Me.Label1.TabIndex = 24
-        Me.Label1.Text = "Recipient Mobile Number:"
+        Me.Label1.Text = "Recipient Mobile Number :"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(100, 173)
+        Me.TextBox1.Location = New System.Drawing.Point(126, 558)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(189, 22)
@@ -98,11 +98,11 @@ Partial Class Loadf
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(11, 230)
+        Me.Label2.Location = New System.Drawing.Point(12, 287)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 20)
+        Me.Label2.Size = New System.Drawing.Size(128, 20)
         Me.Label2.TabIndex = 26
-        Me.Label2.Text = "Regular Load"
+        Me.Label2.Text = "Regular Load :"
         '
         'Panel7
         '
@@ -159,7 +159,7 @@ Partial Class Loadf
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(38, 277)
+        Me.Button1.Location = New System.Drawing.Point(39, 334)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 54)
@@ -173,7 +173,7 @@ Partial Class Loadf
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(52, 288)
+        Me.Label3.Location = New System.Drawing.Point(53, 345)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(67, 17)
         Me.Label3.TabIndex = 29
@@ -185,7 +185,7 @@ Partial Class Loadf
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Red
-        Me.Label4.Location = New System.Drawing.Point(65, 304)
+        Me.Label4.Location = New System.Drawing.Point(66, 361)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(36, 17)
         Me.Label4.TabIndex = 30
@@ -193,7 +193,7 @@ Partial Class Loadf
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(160, 277)
+        Me.Button2.Location = New System.Drawing.Point(161, 334)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 54)
@@ -203,7 +203,7 @@ Partial Class Loadf
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(283, 277)
+        Me.Button3.Location = New System.Drawing.Point(284, 334)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(98, 54)
@@ -213,7 +213,7 @@ Partial Class Loadf
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(38, 349)
+        Me.Button4.Location = New System.Drawing.Point(39, 406)
         Me.Button4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(98, 54)
@@ -223,7 +223,7 @@ Partial Class Loadf
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(160, 349)
+        Me.Button5.Location = New System.Drawing.Point(161, 406)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(98, 54)
@@ -233,7 +233,7 @@ Partial Class Loadf
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(283, 349)
+        Me.Button6.Location = New System.Drawing.Point(284, 406)
         Me.Button6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(98, 54)
@@ -247,7 +247,7 @@ Partial Class Loadf
         Me.Label5.BackColor = System.Drawing.Color.White
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(177, 288)
+        Me.Label5.Location = New System.Drawing.Point(178, 345)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(67, 17)
         Me.Label5.TabIndex = 36
@@ -259,7 +259,7 @@ Partial Class Loadf
         Me.Label6.BackColor = System.Drawing.Color.White
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(289, 288)
+        Me.Label6.Location = New System.Drawing.Point(290, 345)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(76, 17)
         Me.Label6.TabIndex = 37
@@ -272,7 +272,7 @@ Partial Class Loadf
         Me.Label7.BackColor = System.Drawing.Color.White
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(52, 360)
+        Me.Label7.Location = New System.Drawing.Point(53, 417)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(76, 17)
         Me.Label7.TabIndex = 38
@@ -285,7 +285,7 @@ Partial Class Loadf
         Me.Label8.BackColor = System.Drawing.Color.White
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(173, 360)
+        Me.Label8.Location = New System.Drawing.Point(174, 417)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(76, 17)
         Me.Label8.TabIndex = 39
@@ -296,13 +296,13 @@ Partial Class Loadf
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.White
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(289, 360)
+        Me.Label9.Location = New System.Drawing.Point(290, 418)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(90, 17)
+        Me.Label9.Size = New System.Drawing.Size(78, 16)
         Me.Label9.TabIndex = 40
-        Me.Label9.Text = "1,000 Load"
+        Me.Label9.Text = "1000 Load"
         '
         'Label10
         '
@@ -310,7 +310,7 @@ Partial Class Loadf
         Me.Label10.BackColor = System.Drawing.Color.White
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Red
-        Me.Label10.Location = New System.Drawing.Point(190, 304)
+        Me.Label10.Location = New System.Drawing.Point(191, 361)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(36, 17)
         Me.Label10.TabIndex = 41
@@ -322,7 +322,7 @@ Partial Class Loadf
         Me.Label11.BackColor = System.Drawing.Color.White
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Red
-        Me.Label11.Location = New System.Drawing.Point(309, 304)
+        Me.Label11.Location = New System.Drawing.Point(310, 361)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(45, 17)
         Me.Label11.TabIndex = 42
@@ -334,7 +334,7 @@ Partial Class Loadf
         Me.Label12.BackColor = System.Drawing.Color.White
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Red
-        Me.Label12.Location = New System.Drawing.Point(65, 376)
+        Me.Label12.Location = New System.Drawing.Point(66, 433)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(45, 17)
         Me.Label12.TabIndex = 43
@@ -346,7 +346,7 @@ Partial Class Loadf
         Me.Label13.BackColor = System.Drawing.Color.White
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Red
-        Me.Label13.Location = New System.Drawing.Point(188, 376)
+        Me.Label13.Location = New System.Drawing.Point(189, 433)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(45, 17)
         Me.Label13.TabIndex = 44
@@ -358,7 +358,7 @@ Partial Class Loadf
         Me.Label14.BackColor = System.Drawing.Color.White
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Red
-        Me.Label14.Location = New System.Drawing.Point(309, 376)
+        Me.Label14.Location = New System.Drawing.Point(301, 433)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(54, 17)
         Me.Label14.TabIndex = 45
@@ -368,25 +368,26 @@ Partial Class Loadf
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(11, 436)
+        Me.Label15.Location = New System.Drawing.Point(109, 188)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(290, 17)
+        Me.Label15.Size = New System.Drawing.Size(211, 17)
         Me.Label15.TabIndex = 46
-        Me.Label15.Text = "Enter your desired amount ₱10 - 1,000:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label15.Text = "Enter your desired amount :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(137, 468)
+        Me.TextBox2.Location = New System.Drawing.Point(132, 225)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(136, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(175, 22)
         Me.TextBox2.TabIndex = 47
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.Black
-        Me.Button7.Location = New System.Drawing.Point(165, 505)
+        Me.Button7.Location = New System.Drawing.Point(181, 622)
         Me.Button7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(83, 33)

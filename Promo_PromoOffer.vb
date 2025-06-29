@@ -3,6 +3,7 @@
 Public Class Promo_PromoOffer
     Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
         'Back
+
         Promo.Show()
         Me.Hide()
     End Sub
@@ -21,6 +22,8 @@ Public Class Promo_PromoOffer
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        MainMenu.RefreshData()
+
         For Each ctrl As Control In Me.Controls
             If Not (TypeOf ctrl Is VScrollBar Or ctrl Is Panel7) Then
                 ctrl.Tag = ctrl.Top
@@ -86,6 +89,10 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 10!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.1
+                MainMenu.RefreshData()
+
             End If
 
         End If
@@ -104,6 +111,10 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 20!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.2
+                MainMenu.RefreshData()
+
             End If
 
         End If
@@ -121,6 +132,10 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 59!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.3
+                MainMenu.RefreshData()
+
             End If
 
         End If
@@ -138,6 +153,10 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 99!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.4
+                MainMenu.RefreshData()
+
             End If
 
         End If
@@ -155,6 +174,10 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 149!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.5
+                MainMenu.RefreshData()
+
             End If
 
         End If
@@ -172,6 +195,10 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 249!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.6
+                MainMenu.RefreshData()
+
             End If
 
         End If

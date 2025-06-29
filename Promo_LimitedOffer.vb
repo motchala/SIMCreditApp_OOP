@@ -1,13 +1,15 @@
 ﻿Public Class Promo_LimitedOffer
+    Private Sub Promo_LimitedOffer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
         ' Back
         Promo.Show()
         Me.Hide()
     End Sub
 
-    Private Sub Promo_LimitedOffer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         '10
@@ -20,6 +22,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.1
             End If
         End If
 
@@ -36,6 +40,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.2
             End If
         End If
 
@@ -52,6 +58,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.3
             End If
         End If
 
@@ -68,6 +76,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.4
             End If
         End If
 
@@ -84,6 +94,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.5
             End If
         End If
 
@@ -100,6 +112,8 @@
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal += 0.6
             End If
         End If
 
