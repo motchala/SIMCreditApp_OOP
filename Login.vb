@@ -9,7 +9,7 @@
     Dim acc1_email As String = "iamfrederickr@gmail.com"
     Public Shared acc1_pNumber As String = "09662668443"
     Dim acc1_pass As String = "1234"
-    Public Shared acc1_loadBal As Int32 = 70
+    Public Shared acc1_loadBal As Int32 = 6
     Public Shared acc1_rewardBal As Double = 2.6
 
 
@@ -18,7 +18,7 @@
     Dim acc2_email As String = "lastrella@gmail.com"
     Public Shared acc2_pNumber As String = "09396590005"
     Dim acc2_pass As String = "123"
-    Public Shared acc2_loadBal As Int32 = 44
+    Public Shared acc2_loadBal As Int32 = 5
     Public Shared acc2_rewardBal As Double = 1.3
 
     Dim acc3_fName As String = "Wendelyn Salazar"
@@ -52,7 +52,8 @@
     Public Shared loadPurchased As Int32
 
 
-
+    Public Shared currentLoadBal As Integer
+    Public Shared currentRewardBal As Double
 
 
 
@@ -75,11 +76,27 @@
             pNumber = acc4_pNumber And pass = acc4_pass Or
             pNumber = SignUp.pNumber And pass = SignUp.password Then
 
-            MainMenu.Show()
-            Me.Hide()
 
-        Else
-            MessageBox.Show("Incorrect Login credentials.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            If pNumber = acc1_pNumber And pass = acc1_pass Then
+                currentLoadBal = acc1_loadBal
+                currentRewardBal = acc1_rewardBal
+            ElseIf pNumber = acc2_pNumber And pass = acc2_pass Then
+                currentLoadBal = acc2_loadBal
+                currentRewardBal = acc2_rewardBal
+            ElseIf pNumber = acc3_pNumber And pass = acc3_pass Then
+                currentLoadBal = acc3_loadBal
+                currentRewardBal = acc3_rewardBal
+            ElseIf pNumber = acc4_pNumber And pass = acc4_pass Then
+                currentLoadBal = acc4_loadBal
+                currentRewardBal = acc4_rewardBal
+            End If
+
+
+            MainMenu.Show()
+                Me.Hide()
+
+            Else
+                MessageBox.Show("Incorrect Login credentials.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
 
         End If
     End Sub
