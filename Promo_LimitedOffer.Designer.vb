@@ -153,11 +153,11 @@ Partial Class Promo_LimitedOffer
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Navy
-        Me.Label7.Location = New System.Drawing.Point(23, 98)
+        Me.Label7.Location = New System.Drawing.Point(28, 98)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(74, 75)
+        Me.Label7.Size = New System.Drawing.Size(68, 75)
         Me.Label7.TabIndex = 14
-        Me.Label7.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱20.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
+        Me.Label7.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱5.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label8
@@ -218,7 +218,7 @@ Partial Class Promo_LimitedOffer
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(74, 75)
         Me.Label1.TabIndex = 14
-        Me.Label1.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱20.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
+        Me.Label1.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱10.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label2
@@ -231,7 +231,7 @@ Partial Class Promo_LimitedOffer
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(74, 25)
         Me.Label2.TabIndex = 13
-        Me.Label2.Text = "₱10.00"
+        Me.Label2.Text = "₱20.00"
         '
         'Label3
         '
@@ -279,7 +279,7 @@ Partial Class Promo_LimitedOffer
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(74, 75)
         Me.Label10.TabIndex = 14
-        Me.Label10.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱20.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
+        Me.Label10.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱15.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label11
@@ -292,7 +292,7 @@ Partial Class Promo_LimitedOffer
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(74, 25)
         Me.Label11.TabIndex = 13
-        Me.Label11.Text = "₱10.00"
+        Me.Label11.Text = "₱50.00"
         '
         'Label12
         '
@@ -340,7 +340,7 @@ Partial Class Promo_LimitedOffer
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(74, 75)
         Me.Label4.TabIndex = 14
-        Me.Label4.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱20.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
+        Me.Label4.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱30.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label5
@@ -353,7 +353,7 @@ Partial Class Promo_LimitedOffer
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(74, 25)
         Me.Label5.TabIndex = 13
-        Me.Label5.Text = "₱10.00"
+        Me.Label5.Text = "₱99.00"
         '
         'Label6
         '
@@ -401,7 +401,7 @@ Partial Class Promo_LimitedOffer
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(74, 75)
         Me.Label13.TabIndex = 14
-        Me.Label13.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱20.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
+        Me.Label13.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱50.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label14
@@ -410,11 +410,11 @@ Partial Class Promo_LimitedOffer
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Navy
-        Me.Label14.Location = New System.Drawing.Point(23, 61)
+        Me.Label14.Location = New System.Drawing.Point(19, 61)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(74, 25)
+        Me.Label14.Size = New System.Drawing.Size(85, 25)
         Me.Label14.TabIndex = 13
-        Me.Label14.Text = "₱10.00"
+        Me.Label14.Text = "₱120.00"
         '
         'Label15
         '
@@ -462,7 +462,7 @@ Partial Class Promo_LimitedOffer
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(74, 75)
         Me.Label16.TabIndex = 14
-        Me.Label16.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱20.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
+        Me.Label16.Text = "+" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "₱70.00" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Bonus"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Label17
@@ -471,11 +471,11 @@ Partial Class Promo_LimitedOffer
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Navy
-        Me.Label17.Location = New System.Drawing.Point(23, 61)
+        Me.Label17.Location = New System.Drawing.Point(19, 61)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(74, 25)
+        Me.Label17.Size = New System.Drawing.Size(85, 25)
         Me.Label17.TabIndex = 13
-        Me.Label17.Text = "₱10.00"
+        Me.Label17.Text = "₱150.00"
         '
         'Label18
         '
