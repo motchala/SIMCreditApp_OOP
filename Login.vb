@@ -7,26 +7,35 @@
     Dim acc1_fName As String = "Frederick Rosales"
     Dim acc1_age As Int16 = 21
     Dim acc1_email As String = "iamfrederickr@gmail.com"
-    Dim acc1_pNumber As String = "09662668443"
+    Public Shared acc1_pNumber As String = "09662668443"
     Dim acc1_pass As String = "1234"
+    Public Shared acc1_loadBal As Int32 = 70
+    Public Shared acc1_rewardBal As Double = 2.6
+
 
     Dim acc2_fName As String = "Aiello Lastrella"
     Dim acc2_age As Int16 = 20
     Dim acc2_email As String = "lastrella@gmail.com"
-    Dim acc2_pNumber As String = "09396590005"
+    Public Shared acc2_pNumber As String = "09396590005"
     Dim acc2_pass As String = "123"
+    Public Shared acc2_loadBal As Int32 = 44
+    Public Shared acc2_rewardBal As Double = 1.3
 
     Dim acc3_fName As String = "Wendelyn Salazar"
     Dim acc3_age As Int16 = 19
     Dim acc3_email As String = "wanda@gmail.com"
-    Dim acc3_pNumber As String = "09112233445"
+    Public Shared acc3_pNumber As String = "09112233445"
     Dim acc3_pass As String = "12345"
+    Public Shared acc3_loadBal As Int32 = 72
+    Public Shared acc3_rewardBal As Double = 0.9
 
     Dim acc4_fName As String = "Kaye Mallonga"
     Dim acc4_age As Int16 = 19
     Dim acc4_email As String = "kayeM@gmail.com"
-    Dim acc4_pNumber As String = "09987654321"
+    Public Shared acc4_pNumber As String = "09987654321"
     Dim acc4_pass As String = "4321"
+    Public Shared acc4_loadBal As Int32 = 130
+    Public Shared acc4_rewardBal As Double = 4.1
 
 
 
@@ -34,8 +43,13 @@
     Dim fName As String
     Dim age As Int32
     Dim email As String
-    Dim pNumber As String
-    Dim pass As String
+    Public Shared pNumber As String
+    Public Shared pass As String
+
+
+    ' Load Forms Variables
+    Public Shared inputLoadAmount As Int32
+    Public Shared loadPurchased As Int32
 
 
 
