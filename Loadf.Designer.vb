@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Load
+Partial Class Loadf
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -150,10 +150,10 @@ Partial Class Load
         Me.LinkLabel5.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.LinkLabel5.Location = New System.Drawing.Point(24, 8)
         Me.LinkLabel5.Name = "LinkLabel5"
-        Me.LinkLabel5.Size = New System.Drawing.Size(85, 40)
+        Me.LinkLabel5.Size = New System.Drawing.Size(97, 40)
         Me.LinkLabel5.TabIndex = 3
         Me.LinkLabel5.TabStop = True
-        Me.LinkLabel5.Text = "🎫" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Buy Load"
+        Me.LinkLabel5.Text = "🎫" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Buy Promo"
         Me.LinkLabel5.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.LinkLabel5.VisitedLinkColor = System.Drawing.Color.Blue
         '

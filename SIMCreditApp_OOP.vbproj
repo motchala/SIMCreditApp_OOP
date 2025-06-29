@@ -73,10 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Load.Designer.vb">
-      <DependentUpon>Load.vb</DependentUpon>
+    <Compile Include="Loadf.Designer.vb">
+      <DependentUpon>Loadf.vb</DependentUpon>
     </Compile>
-    <Compile Include="Load.vb">
+    <Compile Include="Loadf.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.vb">
@@ -133,8 +133,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Load.resx">
-      <DependentUpon>Load.vb</DependentUpon>
+    <EmbeddedResource Include="Loadf.resx">
+      <DependentUpon>Loadf.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>

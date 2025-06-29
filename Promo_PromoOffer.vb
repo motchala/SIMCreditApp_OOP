@@ -1,6 +1,30 @@
 ﻿
 
 Public Class Promo_PromoOffer
+    Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
+        'Back
+        Promo.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub LinkLabel5_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel5.LinkClicked
+        ' Buy Load
+        Loadf.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked
+        ' Menu
+        MainMenu.Show()
+        Me.Hide()
+    End Sub
+
+
+
+
+
+
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         For Each ctrl As Control In Me.Controls
             If Not (TypeOf ctrl Is VScrollBar Or ctrl Is Panel7) Then
@@ -53,34 +77,5 @@ Public Class Promo_PromoOffer
             End If
         Next
     End Sub
-
-
-    Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
-        'Back
-        If NavigationManager.FormHistory.Count > 0 Then
-            Dim prevForm As Form = NavigationManager.FormHistory.Pop()
-            prevForm.Show()
-            Me.Close()
-        Else
-            MessageBox.Show("No previous form.")
-        End If
-    End Sub
-
-    Private Sub LinkLabel5_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel5.LinkClicked
-        ' Buy Load
-        NavigationManager.FormHistory.Push(Me)
-        Dim newForm3 As New Load()
-        newForm3.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked
-        ' Menu
-        NavigationManager.FormHistory.Push(Me)
-        Dim newForm4 As New mainMenu()
-        newForm4.Show()
-        Me.Hide()
-    End Sub
-
 
 End Class

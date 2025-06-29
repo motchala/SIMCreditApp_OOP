@@ -507,7 +507,7 @@ Partial Class Promo_PromoOffer
         Me.Label21.TabIndex = 22
         Me.Label21.Text = "███████ ███████ ███████ ███████ ███████"
         '
-        'PromoOffer
+        'Promo_PromoOffer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -529,7 +529,7 @@ Partial Class Promo_PromoOffer
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "PromoOffer"
+        Me.Name = "Promo_PromoOffer"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Promo Offers"
         Me.Panel1.ResumeLayout(False)

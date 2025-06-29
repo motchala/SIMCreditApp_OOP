@@ -56,17 +56,19 @@ Partial Class SignUp
         Me.LinkLabel1.ActiveLinkColor = System.Drawing.Color.Red
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.LinkLabel1.LinkColor = System.Drawing.Color.White
         Me.LinkLabel1.Location = New System.Drawing.Point(276, 624)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(56, 18)
+        Me.LinkLabel1.Size = New System.Drawing.Size(72, 20)
         Me.LinkLabel1.TabIndex = 26
+        Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Sign in."
         '
         'Button1
         '
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(144, 537)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(141, 39)
@@ -76,37 +78,43 @@ Partial Class SignUp
         '
         'iPass
         '
+        Me.iPass.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.iPass.Location = New System.Drawing.Point(170, 446)
         Me.iPass.Name = "iPass"
-        Me.iPass.Size = New System.Drawing.Size(205, 22)
+        Me.iPass.Size = New System.Drawing.Size(205, 23)
         Me.iPass.TabIndex = 24
+        Me.iPass.UseSystemPasswordChar = True
         '
         'iNumber
         '
+        Me.iNumber.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.iNumber.Location = New System.Drawing.Point(170, 374)
         Me.iNumber.Name = "iNumber"
-        Me.iNumber.Size = New System.Drawing.Size(205, 22)
+        Me.iNumber.Size = New System.Drawing.Size(205, 23)
         Me.iNumber.TabIndex = 23
         '
         'iEmail
         '
+        Me.iEmail.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.iEmail.Location = New System.Drawing.Point(170, 302)
         Me.iEmail.Name = "iEmail"
-        Me.iEmail.Size = New System.Drawing.Size(205, 22)
+        Me.iEmail.Size = New System.Drawing.Size(205, 23)
         Me.iEmail.TabIndex = 22
         '
         'iAge
         '
+        Me.iAge.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.iAge.Location = New System.Drawing.Point(170, 236)
         Me.iAge.Name = "iAge"
-        Me.iAge.Size = New System.Drawing.Size(205, 22)
+        Me.iAge.Size = New System.Drawing.Size(205, 23)
         Me.iAge.TabIndex = 21
         '
         'ifName
         '
+        Me.ifName.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ifName.Location = New System.Drawing.Point(170, 171)
         Me.ifName.Name = "ifName"
-        Me.ifName.Size = New System.Drawing.Size(205, 22)
+        Me.ifName.Size = New System.Drawing.Size(205, 23)
         Me.ifName.TabIndex = 20
         '
         'Label6
@@ -173,15 +181,15 @@ Partial Class SignUp
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(122, 74)
+        Me.Label1.Location = New System.Drawing.Point(50, 70)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(196, 36)
+        Me.Label1.Size = New System.Drawing.Size(322, 34)
         Me.Label1.TabIndex = 14
-        Me.Label1.Text = "SIM CREDIT"
+        Me.Label1.Text = "SIM CREDIT SYSTEM"
         '
-        'signUp_Form
+        'SignUp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -203,7 +211,7 @@ Partial Class SignUp
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "signUp_Form"
+        Me.Name = "SignUp"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "signUp_Form"
         Me.ResumeLayout(False)
