@@ -8,7 +8,7 @@
     Public Sub RefreshData()
         Label8.Text = Login.currentName
         Label9.Text = Login.currentPhoneNumber
-        Label10.Text = Login.currentLoadBal
+        Label10.Text = "₱ " + Login.currentLoadBal.ToString
         Label11.Text = Login.currentActivePromo
         Label12.Text = Login.currentRewardBal
 
@@ -44,6 +44,10 @@
     End Sub
 
     Private Sub MainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
 End Class
