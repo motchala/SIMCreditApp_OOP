@@ -69,7 +69,7 @@ Partial Class SignUp
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(144, 537)
+        Me.Button1.Location = New System.Drawing.Point(144, 542)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(141, 39)
         Me.Button1.TabIndex = 25
@@ -79,7 +79,7 @@ Partial Class SignUp
         'iPass
         '
         Me.iPass.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.iPass.Location = New System.Drawing.Point(170, 446)
+        Me.iPass.Location = New System.Drawing.Point(170, 456)
         Me.iPass.Name = "iPass"
         Me.iPass.Size = New System.Drawing.Size(205, 23)
         Me.iPass.TabIndex = 24
@@ -88,7 +88,7 @@ Partial Class SignUp
         'iNumber
         '
         Me.iNumber.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.iNumber.Location = New System.Drawing.Point(170, 374)
+        Me.iNumber.Location = New System.Drawing.Point(170, 393)
         Me.iNumber.Name = "iNumber"
         Me.iNumber.Size = New System.Drawing.Size(205, 23)
         Me.iNumber.TabIndex = 23
@@ -96,7 +96,7 @@ Partial Class SignUp
         'iEmail
         '
         Me.iEmail.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.iEmail.Location = New System.Drawing.Point(170, 302)
+        Me.iEmail.Location = New System.Drawing.Point(170, 325)
         Me.iEmail.Name = "iEmail"
         Me.iEmail.Size = New System.Drawing.Size(205, 23)
         Me.iEmail.TabIndex = 22
@@ -104,7 +104,7 @@ Partial Class SignUp
         'iAge
         '
         Me.iAge.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.iAge.Location = New System.Drawing.Point(170, 236)
+        Me.iAge.Location = New System.Drawing.Point(170, 255)
         Me.iAge.Name = "iAge"
         Me.iAge.Size = New System.Drawing.Size(205, 23)
         Me.iAge.TabIndex = 21
@@ -112,7 +112,7 @@ Partial Class SignUp
         'ifName
         '
         Me.ifName.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ifName.Location = New System.Drawing.Point(170, 171)
+        Me.ifName.Location = New System.Drawing.Point(170, 191)
         Me.ifName.Name = "ifName"
         Me.ifName.Size = New System.Drawing.Size(205, 23)
         Me.ifName.TabIndex = 20
@@ -123,7 +123,7 @@ Partial Class SignUp
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(42, 444)
+        Me.Label6.Location = New System.Drawing.Point(62, 453)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(99, 22)
         Me.Label6.TabIndex = 19
@@ -135,7 +135,7 @@ Partial Class SignUp
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(42, 300)
+        Me.Label5.Location = New System.Drawing.Point(62, 322)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(64, 22)
         Me.Label5.TabIndex = 18
@@ -147,7 +147,7 @@ Partial Class SignUp
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(42, 232)
+        Me.Label4.Location = New System.Drawing.Point(62, 252)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(52, 22)
         Me.Label4.TabIndex = 17
@@ -159,7 +159,7 @@ Partial Class SignUp
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(42, 372)
+        Me.Label3.Location = New System.Drawing.Point(62, 390)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(83, 22)
         Me.Label3.TabIndex = 16
@@ -171,7 +171,7 @@ Partial Class SignUp
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(42, 169)
+        Me.Label2.Location = New System.Drawing.Point(62, 188)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(67, 22)
         Me.Label2.TabIndex = 15
@@ -194,6 +194,8 @@ Partial Class SignUp
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(428, 738)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.LinkLabel1)
