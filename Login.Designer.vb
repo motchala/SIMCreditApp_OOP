@@ -84,7 +84,7 @@ Partial Class Login
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(97, 38)
         Me.Button1.TabIndex = 4
-        Me.Button1.Text = "Sign In"
+        Me.Button1.Text = "Log-in"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'LinkLabel1
