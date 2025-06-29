@@ -126,6 +126,12 @@
     <Compile Include="Promo_PromoOffer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reward.Designer.vb">
+      <DependentUpon>Reward.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reward.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SignUp.Designer.vb">
       <DependentUpon>SignUp.vb</DependentUpon>
     </Compile>
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Promo_PromoOffer.resx">
       <DependentUpon>Promo_PromoOffer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reward.resx">
+      <DependentUpon>Reward.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.vb</DependentUpon>
