@@ -75,7 +75,7 @@
             pNumber = acc4_pNumber And pass = acc4_pass Or
             pNumber = SignUp.pNumber And pass = SignUp.password Then
 
-            Promo.Show()
+            MainMenu.Show()
             Me.Hide()
 
         Else

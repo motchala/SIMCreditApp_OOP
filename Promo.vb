@@ -27,6 +27,7 @@ Public Class Promo
     Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
         ' Back
         MainMenu.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Promo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
