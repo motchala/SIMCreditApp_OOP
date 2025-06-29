@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.SIMCredit_OOP.Promo
+            Me.MainForm = Global.SIMCredit_OOP.MainMenu
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
