@@ -1,4 +1,6 @@
-﻿Public Class Promo_LimitedOffer
+﻿Imports System.Runtime.CompilerServices
+
+Public Class Promo_LimitedOffer
     Private Sub Promo_LimitedOffer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -24,6 +26,7 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 10
+                Login.currentActivePromo = "Limited 10"
 
                 Login.currentRewardBal += 0.1
             End If
@@ -44,6 +47,7 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 20
+                Login.currentActivePromo = "Limited 20"
 
                 Login.currentRewardBal += 0.2
             End If
@@ -64,6 +68,7 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 50
+                Login.currentActivePromo = "Limited 50"
 
                 Login.currentRewardBal += 0.3
             End If
@@ -84,6 +89,7 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 99
+                Login.currentActivePromo = "Limited 99"
 
                 Login.currentRewardBal += 0.4
             End If
@@ -104,6 +110,7 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 120
+                Login.currentActivePromo = "Limited 120"
 
                 Login.currentRewardBal += 0.5
             End If
@@ -124,10 +131,23 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 150
+                Login.currentActivePromo = "Limited 150"
 
                 Login.currentRewardBal += 0.6
             End If
         End If
 
+    End Sub
+
+    Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked
+        'Main Menu
+        MainMenu.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub LinkLabel5_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel5.LinkClicked
+        'Buy Load
+        Loadf.Show()
+        Me.Hide()
     End Sub
 End Class

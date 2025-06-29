@@ -11,6 +11,7 @@
     Public Shared acc1_pass As String = "1234"
     Public Shared acc1_loadBal As Int32 = 70
     Public Shared acc1_rewardBal As Double = 2.6
+    Public Shared acc1_promo As String = "No Active Promo"
 
 
     Public Shared acc2_fName As String = "Aiello Lastrella"
@@ -20,6 +21,7 @@
     Public Shared acc2_pass As String = "123"
     Public Shared acc2_loadBal As Int32 = 5
     Public Shared acc2_rewardBal As Double = 1.3
+    Public Shared acc2_promo As String = "No Active Promo"
 
     Public Shared acc3_fName As String = "Wendelyn Salazar"
     Public Shared acc3_age As Int16 = 19
@@ -28,6 +30,7 @@
     Public Shared acc3_pass As String = "12345"
     Public Shared acc3_loadBal As Int32 = 72
     Public Shared acc3_rewardBal As Double = 0.9
+    Public Shared acc3_promo As String = "No Active Promo"
 
     Public Shared acc4_fName As String = "Kaye Mallonga"
     Public Shared acc4_age As Int16 = 19
@@ -36,6 +39,7 @@
     Public Shared acc4_pass As String = "4321"
     Public Shared acc4_loadBal As Int32 = 130
     Public Shared acc4_rewardBal As Double = 4.1
+    Public Shared acc4_promo As String = "No Active Promo"
 
 
 
@@ -53,6 +57,7 @@
 
 
     Public Shared currentLoadBal As Integer
+    Public Shared activePromo As String
     Public Shared currentRewardBal As Double
     Public Shared currentName As String
     Public Shared currentActivePromo
@@ -84,24 +89,28 @@
                 currentRewardBal = acc1_rewardBal
                 currentName = acc1_fName
                 currentPhoneNumber = acc1_pNumber
+                currentActivePromo = acc1_promo
 
             ElseIf pNumber = acc2_pNumber And pass = acc2_pass Then
                 currentLoadBal = acc2_loadBal
                 currentRewardBal = acc2_rewardBal
                 currentName = acc2_fName
                 currentPhoneNumber = acc2_pNumber
+                currentActivePromo = acc2_promo
 
             ElseIf pNumber = acc3_pNumber And pass = acc3_pass Then
                 currentLoadBal = acc3_loadBal
                 currentRewardBal = acc3_rewardBal
                 currentName = acc3_fName
                 currentPhoneNumber = acc3_pNumber
+                currentActivePromo = acc3_promo
 
             ElseIf pNumber = acc4_pNumber And pass = acc4_pass Then
                 currentLoadBal = acc4_loadBal
                 currentRewardBal = acc4_rewardBal
                 currentName = acc4_fName
                 currentPhoneNumber = acc4_pNumber
+                currentActivePromo = acc4_promo
 
             End If
 

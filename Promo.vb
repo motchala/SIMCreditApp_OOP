@@ -51,6 +51,7 @@ Public Class Promo
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 10
+                Login.currentActivePromo = "Fawk 10"
 
                 Login.currentRewardBal += 0.1
                 MainMenu.RefreshData()
@@ -73,6 +74,7 @@ Public Class Promo
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 20
+                Login.currentActivePromo = "Fawk 20"
 
                 Login.currentRewardBal += 0.2
                 MainMenu.RefreshData()
@@ -94,6 +96,7 @@ Public Class Promo
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 10
+                Login.currentActivePromo = "Limited 10"
 
                 Login.currentRewardBal += 0.3
                 MainMenu.RefreshData()
@@ -114,6 +117,7 @@ Public Class Promo
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 20
+                Login.currentActivePromo = "Limited 20"
 
                 Login.currentRewardBal += 0.4
                 MainMenu.RefreshData()
@@ -123,7 +127,7 @@ Public Class Promo
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         'Fawk 59
-        If Login.currentLoadBal < 59 Then
+        If Login.currentLoadBal < 55 Then
             MessageBox.Show("Insufficient Balance")
 
         Else
@@ -134,9 +138,10 @@ Public Class Promo
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 59!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
-                Login.currentLoadBal -= 59
+                Login.currentLoadBal -= 55
+                Login.currentActivePromo = "Fawk 59"
 
-                Login.currentRewardBal += 0.5
+                Login.currentRewardBal += 0.3
                 MainMenu.RefreshData()
             End If
 
@@ -156,6 +161,7 @@ Public Class Promo
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentLoadBal -= 20
+                Login.currentActivePromo = "Limited 20"
 
                 Login.currentRewardBal += 0.6
                 MainMenu.RefreshData()
@@ -167,5 +173,28 @@ Public Class Promo
     Private Sub Promo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        'Fawk 149
+        If Login.currentLoadBal < 135 Then
+            MessageBox.Show("Insufficient Balance")
+
+        Else
+            Dim result As DialogResult = MessageBox.Show("Do you want to subscribe" & vbCrLf & "to Fawk 149?", "Confirm Subscription",
+                                                 MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+
+            If result = DialogResult.Yes Then
+                MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 149!", "Subscribed Successful",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 135
+                Login.currentActivePromo = "Fawk 149"
+
+                Login.currentRewardBal += 0.5
+                MainMenu.RefreshData()
+            End If
+
+        End If
     End Sub
 End Class
