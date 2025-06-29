@@ -3,7 +3,7 @@ Public Class Promo
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
         ' Promo Offer
         MainMenu.RefreshData()
-        Promo_PromoOffer.Show(Login)
+        Promo_PromoOffer.Show()
         Me.Hide()
     End Sub
 
@@ -17,7 +17,7 @@ Public Class Promo
     Private Sub LinkLabel5_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel5.LinkClicked
         ' Buy Load
         MainMenu.RefreshData()
-        Loadf.Show(Login)
+        Loadf.Show()
         Me.Hide()
     End Sub
 
