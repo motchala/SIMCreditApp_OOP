@@ -1,9 +1,13 @@
 ﻿
 
 Public Class Promo_PromoOffer
+
+    Private Sub Promo_PromoOffer_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        MainMenu.RefreshData()
+    End Sub
+
     Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
         'Back
-
         Promo.Show()
         Me.Hide()
     End Sub
