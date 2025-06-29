@@ -90,6 +90,8 @@ Public Class Promo_PromoOffer
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 10!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 10
+
                 Login.currentRewardBal += 0.1
                 MainMenu.RefreshData()
 
@@ -112,6 +114,8 @@ Public Class Promo_PromoOffer
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 20!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 20
+
                 Login.currentRewardBal += 0.2
                 MainMenu.RefreshData()
 
@@ -132,6 +136,8 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 59!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 55
 
                 Login.currentRewardBal += 0.3
                 MainMenu.RefreshData()
@@ -154,6 +160,8 @@ Public Class Promo_PromoOffer
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 99!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 90
+
                 Login.currentRewardBal += 0.4
                 MainMenu.RefreshData()
 
@@ -175,6 +183,8 @@ Public Class Promo_PromoOffer
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 149!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 135
+
                 Login.currentRewardBal += 0.5
                 MainMenu.RefreshData()
 
@@ -195,6 +205,8 @@ Public Class Promo_PromoOffer
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 249!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 225
 
                 Login.currentRewardBal += 0.6
                 MainMenu.RefreshData()
