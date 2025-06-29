@@ -382,7 +382,7 @@ Partial Class Promo_PromoOffer
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Arial Rounded MT Bold", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Navy
-        Me.Label16.Location = New System.Drawing.Point(160, 33)
+        Me.Label16.Location = New System.Drawing.Point(160, 52)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(233, 64)
         Me.Label16.TabIndex = 14
