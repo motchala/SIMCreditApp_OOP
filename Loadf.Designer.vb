@@ -111,9 +111,9 @@ Partial Class Loadf
         Me.Panel7.Controls.Add(Me.LinkLabel6)
         Me.Panel7.Controls.Add(Me.LinkLabel5)
         Me.Panel7.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel7.Location = New System.Drawing.Point(0, 593)
+        Me.Panel7.Location = New System.Drawing.Point(0, 755)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(420, 57)
+        Me.Panel7.Size = New System.Drawing.Size(428, 57)
         Me.Panel7.TabIndex = 27
         '
         'LinkLabel4
@@ -189,7 +189,7 @@ Partial Class Loadf
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(36, 17)
         Me.Label4.TabIndex = 30
-        Me.Label4.Text = "₱29"
+        Me.Label4.Text = "₱30"
         '
         'Button2
         '
@@ -314,7 +314,7 @@ Partial Class Loadf
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(36, 17)
         Me.Label10.TabIndex = 41
-        Me.Label10.Text = "₱48"
+        Me.Label10.Text = "₱50"
         '
         'Label11
         '
@@ -324,9 +324,9 @@ Partial Class Loadf
         Me.Label11.ForeColor = System.Drawing.Color.Red
         Me.Label11.Location = New System.Drawing.Point(309, 304)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(36, 17)
+        Me.Label11.Size = New System.Drawing.Size(45, 17)
         Me.Label11.TabIndex = 42
-        Me.Label11.Text = "₱97"
+        Me.Label11.Text = "₱100"
         '
         'Label12
         '
@@ -338,7 +338,7 @@ Partial Class Loadf
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(45, 17)
         Me.Label12.TabIndex = 43
-        Me.Label12.Text = "₱188"
+        Me.Label12.Text = "₱200"
         '
         'Label13
         '
@@ -346,11 +346,11 @@ Partial Class Loadf
         Me.Label13.BackColor = System.Drawing.Color.White
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Red
-        Me.Label13.Location = New System.Drawing.Point(181, 376)
+        Me.Label13.Location = New System.Drawing.Point(188, 376)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(45, 17)
         Me.Label13.TabIndex = 44
-        Me.Label13.Text = "₱450"
+        Me.Label13.Text = "₱500"
         '
         'Label14
         '
@@ -360,9 +360,9 @@ Partial Class Loadf
         Me.Label14.ForeColor = System.Drawing.Color.Red
         Me.Label14.Location = New System.Drawing.Point(309, 376)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(45, 17)
+        Me.Label14.Size = New System.Drawing.Size(54, 17)
         Me.Label14.TabIndex = 45
-        Me.Label14.Text = "₱900"
+        Me.Label14.Text = "₱1000"
         '
         'Label15
         '
@@ -370,9 +370,9 @@ Partial Class Loadf
         Me.Label15.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(11, 436)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(273, 17)
+        Me.Label15.Size = New System.Drawing.Size(290, 17)
         Me.Label15.TabIndex = 46
-        Me.Label15.Text = "Enter your desired amount ₱5-1,000:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label15.Text = "Enter your desired amount ₱10 - 1,000:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'TextBox2
         '
@@ -394,12 +394,12 @@ Partial Class Loadf
         Me.Button7.Text = "Proceed"
         Me.Button7.UseVisualStyleBackColor = True
         '
-        'Load
+        'Loadf
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
-        Me.ClientSize = New System.Drawing.Size(420, 650)
+        Me.ClientSize = New System.Drawing.Size(428, 812)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label15)
@@ -430,7 +430,7 @@ Partial Class Loadf
         Me.ForeColor = System.Drawing.Color.White
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Name = "Load"
+        Me.Name = "Loadf"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Load"
         Me.Panel7.ResumeLayout(False)
