@@ -28,7 +28,7 @@ Partial Class SignUp
         Me.Button1 = New System.Windows.Forms.Button()
         Me.iPass = New System.Windows.Forms.TextBox()
         Me.iNumber = New System.Windows.Forms.TextBox()
-        Me.iEmail = New System.Windows.Forms.TextBox()
+        Me.iBank = New System.Windows.Forms.TextBox()
         Me.iAge = New System.Windows.Forms.TextBox()
         Me.ifName = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -93,13 +93,13 @@ Partial Class SignUp
         Me.iNumber.Size = New System.Drawing.Size(205, 23)
         Me.iNumber.TabIndex = 23
         '
-        'iEmail
+        'iBank
         '
-        Me.iEmail.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.iEmail.Location = New System.Drawing.Point(170, 325)
-        Me.iEmail.Name = "iEmail"
-        Me.iEmail.Size = New System.Drawing.Size(205, 23)
-        Me.iEmail.TabIndex = 22
+        Me.iBank.Font = New System.Drawing.Font("Arial Rounded MT Bold", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.iBank.Location = New System.Drawing.Point(170, 325)
+        Me.iBank.Name = "iBank"
+        Me.iBank.Size = New System.Drawing.Size(205, 23)
+        Me.iBank.TabIndex = 22
         '
         'iAge
         '
@@ -137,9 +137,9 @@ Partial Class SignUp
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(62, 322)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(64, 22)
+        Me.Label5.Size = New System.Drawing.Size(61, 22)
         Me.Label5.TabIndex = 18
-        Me.Label5.Text = "Email :"
+        Me.Label5.Text = "Bank :"
         '
         'Label4
         '
@@ -202,7 +202,7 @@ Partial Class SignUp
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.iPass)
         Me.Controls.Add(Me.iNumber)
-        Me.Controls.Add(Me.iEmail)
+        Me.Controls.Add(Me.iBank)
         Me.Controls.Add(Me.iAge)
         Me.Controls.Add(Me.ifName)
         Me.Controls.Add(Me.Label6)
@@ -226,7 +226,7 @@ Partial Class SignUp
     Friend WithEvents Button1 As Button
     Friend WithEvents iPass As TextBox
     Friend WithEvents iNumber As TextBox
-    Friend WithEvents iEmail As TextBox
+    Friend WithEvents iBank As TextBox
     Friend WithEvents iAge As TextBox
     Friend WithEvents ifName As TextBox
     Friend WithEvents Label6 As Label

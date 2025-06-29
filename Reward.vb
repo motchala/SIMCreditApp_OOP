@@ -1,5 +1,8 @@
 ﻿Public Class Reward
 
+    Private Sub Reward_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+        MainMenu.RefreshData()
+    End Sub
 
     Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
         MainMenu.Show()
@@ -7,6 +10,7 @@
     End Sub
 
     Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked
+        ' Menu Button
         MainMenu.Show()
         Me.Hide()
     End Sub
@@ -45,6 +49,8 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 1.0
+
+                Login.currentActivePromo = "ML10"
                 MainMenu.RefreshData()
             End If
         End If
@@ -63,6 +69,8 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 2.0
+                Login.currentActivePromo = "FB20"
+
                 MainMenu.RefreshData()
             End If
         End If
@@ -81,6 +89,8 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 3.0
+                Login.currentActivePromo = "STREAM"
+
                 MainMenu.RefreshData()
             End If
         End If
@@ -99,6 +109,8 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 3.0
+                Login.currentActivePromo = "IQIYI"
+
                 MainMenu.RefreshData()
             End If
         End If
@@ -117,6 +129,8 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 3.8
+                Login.currentActivePromo = "Bilibili"
+
                 MainMenu.RefreshData()
             End If
         End If
@@ -135,6 +149,8 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 5.0
+                Login.currentActivePromo = "Crunchyroll"
+
                 MainMenu.RefreshData()
             End If
         End If
@@ -156,6 +172,7 @@
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 Login.currentRewardBal -= 1.5
+
                 MainMenu.RefreshData()
             End If
         End If
@@ -198,7 +215,7 @@
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        ' Potato Corner
+        ' Patata Corner
         If Login.currentRewardBal < 5.6 Then
             MessageBox.Show("Insufficient Balance")
         Else
@@ -255,5 +272,63 @@
         ' Load 
         Loadf.Show()
         Me.Hide()
+    End Sub
+
+
+    ' ALL TIME FAV
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        ' SM VOUCHER
+        If Login.currentRewardBal < 7.5 Then
+            MessageBox.Show("Insufficient Balance")
+        Else
+            Dim result As DialogResult = MessageBox.Show("Do you want to avail" & vbCrLf & "this offer?", "Confirm Purchase",
+                                                     MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+
+            If result = DialogResult.Yes Then
+                MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal -= 7.5
+                MainMenu.RefreshData()
+            End If
+        End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        ' ML10
+        If Login.currentRewardBal < 1.0 Then
+            MessageBox.Show("Insufficient Balance")
+        Else
+            Dim result As DialogResult = MessageBox.Show("Do you want to avail" & vbCrLf & "this offer?", "Confirm Purchase",
+                                                     MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+
+            If result = DialogResult.Yes Then
+                MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal -= 1.0
+                Login.currentActivePromo = "ML10"
+
+                MainMenu.RefreshData()
+            End If
+        End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        ' Patata Corner
+        If Login.currentRewardBal < 5.6 Then
+            MessageBox.Show("Insufficient Balance")
+        Else
+            Dim result As DialogResult = MessageBox.Show("Do you want to avail" & vbCrLf & "this offer?", "Confirm Purchase",
+                                                     MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+
+            If result = DialogResult.Yes Then
+                MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentRewardBal -= 5.6
+                MainMenu.RefreshData()
+            End If
+        End If
     End Sub
 End Class

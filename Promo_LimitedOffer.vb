@@ -29,6 +29,7 @@ Public Class Promo_LimitedOffer
                 Login.currentActivePromo = "Limited 10"
 
                 Login.currentRewardBal += 0.1
+                MainMenu.RefreshData()
             End If
         End If
 
@@ -50,6 +51,7 @@ Public Class Promo_LimitedOffer
                 Login.currentActivePromo = "Limited 20"
 
                 Login.currentRewardBal += 0.2
+                MainMenu.RefreshData()
             End If
         End If
 
@@ -71,6 +73,7 @@ Public Class Promo_LimitedOffer
                 Login.currentActivePromo = "Limited 50"
 
                 Login.currentRewardBal += 0.3
+                MainMenu.RefreshData()
             End If
         End If
 
@@ -92,6 +95,7 @@ Public Class Promo_LimitedOffer
                 Login.currentActivePromo = "Limited 99"
 
                 Login.currentRewardBal += 0.4
+                MainMenu.RefreshData()
             End If
         End If
 
@@ -113,6 +117,7 @@ Public Class Promo_LimitedOffer
                 Login.currentActivePromo = "Limited 120"
 
                 Login.currentRewardBal += 0.5
+                MainMenu.RefreshData()
             End If
         End If
 
@@ -134,6 +139,7 @@ Public Class Promo_LimitedOffer
                 Login.currentActivePromo = "Limited 150"
 
                 Login.currentRewardBal += 0.6
+                MainMenu.RefreshData()
             End If
         End If
 
@@ -141,6 +147,7 @@ Public Class Promo_LimitedOffer
 
     Private Sub LinkLabel6_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked
         'Main Menu
+        MainMenu.RefreshData()
         MainMenu.Show()
         Me.Hide()
     End Sub
