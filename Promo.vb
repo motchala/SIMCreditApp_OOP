@@ -50,6 +50,8 @@ Public Class Promo
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 10!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 10
+
                 Login.currentRewardBal += 0.1
                 MainMenu.RefreshData()
             End If
@@ -70,6 +72,8 @@ Public Class Promo
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 20!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 20
+
                 Login.currentRewardBal += 0.2
                 MainMenu.RefreshData()
             End If
@@ -89,6 +93,8 @@ Public Class Promo
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 10
+
                 Login.currentRewardBal += 0.3
                 MainMenu.RefreshData()
             End If
@@ -106,6 +112,8 @@ Public Class Promo
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 20
 
                 Login.currentRewardBal += 0.4
                 MainMenu.RefreshData()
@@ -126,6 +134,8 @@ Public Class Promo
                 MessageBox.Show("You have successfully" & vbCrLf & "subscribed to Fawk 59!", "Subscribed Successful",
                             MessageBoxButtons.OK, MessageBoxIcon.Information)
 
+                Login.currentLoadBal -= 59
+
                 Login.currentRewardBal += 0.5
                 MainMenu.RefreshData()
             End If
@@ -144,6 +154,8 @@ Public Class Promo
             If result = DialogResult.Yes Then
                 MessageBox.Show("You have successfully" & vbCrLf & "availed the offer!", "Purchase Successful",
                                 MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                Login.currentLoadBal -= 20
 
                 Login.currentRewardBal += 0.6
                 MainMenu.RefreshData()
