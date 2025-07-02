@@ -107,7 +107,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="NavigationManager.vb" />
     <Compile Include="Promo.Designer.vb">
       <DependentUpon>Promo.vb</DependentUpon>
     </Compile>

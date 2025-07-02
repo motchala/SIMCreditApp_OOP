@@ -33,6 +33,7 @@
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         'Log Out
+
         Login.TextBox1.ResetText()
         Login.TextBox2.ResetText()
 
