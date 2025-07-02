@@ -105,6 +105,7 @@
                 currentPhoneNumber = acc4_pNumber
                 currentActivePromo = acc4_promo
             End If
+            MainMenu.RefreshData()
 
             MainMenu.Show()
             Me.Hide()
