@@ -137,9 +137,9 @@ Partial Class SignUp
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(62, 322)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 22)
+        Me.Label5.Size = New System.Drawing.Size(64, 22)
         Me.Label5.TabIndex = 18
-        Me.Label5.Text = "Bank :"
+        Me.Label5.Text = "Email :"
         '
         'Label4
         '
